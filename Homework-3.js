@@ -39,3 +39,5 @@ console.log(`\nDoes sentence 2 end with 'Google news'? = ${loweredSent2.endsWith
 // I couldn't figure out how to do question 2 part 4.
 
 console.log(`\nThe character present at second-last index in the String = ${sentence2[sentence2.length-2]}`);
+
+// Fahim Shahriar 1/25
