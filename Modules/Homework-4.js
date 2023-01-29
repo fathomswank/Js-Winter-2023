@@ -11,7 +11,7 @@
  */
 let userName1 = 'John Gig';
 userName1Array = userName1.split(' ');
-console.log(`How many names did the user include? -> ${userName1Array.length}`);
+console.log(`Did the user provide first and last name? -> ${userName1Array.length === 2}`);
 
 /**
  * Q2: Create abbreviation for a 4-word sentence
@@ -35,3 +35,5 @@ console.log(`abbr -> ${abbr}`);     // YNWA
 let sentence3 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
 let sentenceAsArray = sentence3.split(' ');
 console.log(`How many words in this sentence? -> ${sentenceAsArray.length}`);
+
+// Fahim Shahriar 1/28
