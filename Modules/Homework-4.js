@@ -22,9 +22,8 @@ console.log(`Did the user provide first and last name? -> ${userName1Array.lengt
  * 
  */
 let sentence2 = 'you NEVEr waLK aLOne'
-let abbr = sentence2.substr(0,1) + sentence2.substr(4,1) + sentence2.substr(10,1) + sentence2.substr(15,1);
-abbr = (abbr.toUpperCase());
-
+let sentence2Split = sentence2.split(' ');
+let abbr = (sentence2Split[0].substring(0,1) + sentence2Split[1].substring(0,1) + sentence2Split[2].substring(0,1) + sentence2Split[3].substring(0,1)).toUpperCase();
 console.log(`abbr -> ${abbr}`);     // YNWA
 
 
