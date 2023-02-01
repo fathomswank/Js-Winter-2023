@@ -9,8 +9,9 @@
  * userName1 = 'John'                ->      false
  * userName1 = ''                    ->      false
  */
-let userName1 = '';
-
+let userName1 = 'John Gig';
+userName1Array = userName1.split(' ');
+console.log(`Did the user provide first and last name? -> ${userName1Array.length === 2}`);
 
 /**
  * Q2: Create abbreviation for a 4-word sentence
@@ -21,8 +22,8 @@ let userName1 = '';
  * 
  */
 let sentence2 = 'you NEVEr waLK aLOne'
-let abbr = '';
-// code
+let sentence2Split = sentence2.split(' ');
+let abbr = (sentence2Split[0].substring(0,1) + sentence2Split[1].substring(0,1) + sentence2Split[2].substring(0,1) + sentence2Split[3].substring(0,1)).toUpperCase();
 console.log(`abbr -> ${abbr}`);     // YNWA
 
 
@@ -31,3 +32,7 @@ console.log(`abbr -> ${abbr}`);     // YNWA
  * Q3: Count the number of words in the sentence
  */
 let sentence3 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
+let sentenceAsArray = sentence3.split(' ');
+console.log(`How many words in this sentence? -> ${sentenceAsArray.length}`);
+
+// Fahim Shahriar 1/28
