@@ -88,14 +88,14 @@ console.log(`planets -> ${planets}`);           // planets -> EaRTh,MerCUrY,MaRS
  * 
  */
 console.log('\n*** pop() ***');
-let popedValue = planets.pop();
-console.log(`popedValue -> ${popedValue}`);
+let poppedValue = planets.pop();
+console.log(`poppedValue -> ${poppedValue}`);
 console.log(`planets -> ${planets}`);               // planets -> EaRTh,MerCUrY,MaRS
 
 
 console.log('\n*** shift() ***');
 let shiftedValue = planets.shift();
-console.log(`popedValue -> ${shiftedValue}`);       // EaRTh
+console.log(`poppedValue -> ${shiftedValue}`);       // EaRTh
 console.log(`planets -> ${planets}`);               // planets -> MerCUrY,MaRS
 
 
