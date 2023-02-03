@@ -42,9 +42,9 @@ const sports = ['Basketball', 'Football', 'Rugby', 'Swimming', 'Soccer', 'Baseba
 
 if(sports[2].toLowerCase() == 'Basketball'.toLowerCase()){
     console.log('Basketball is present at index-2');
-  } else if(sports[2].toLowerCase() != 'Basketball'.toLowerCase()) {
+  } else if(sports.includes('Basketball') === true && sports[2].toLowerCase() != 'Basketball'.toLowerCase()) {
     console.log('Basketball is not present at index-2');
-  } else {
+  } else if(sports.includes('Basketball') === false) {
     sports[2] = 'Basketball';
     console.log(sports);
   } 
