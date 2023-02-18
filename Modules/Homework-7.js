@@ -36,9 +36,9 @@ function smallestValue(arr){
 
 let numbers = [98, 34, 12, 1, 23, 43, 65, 43, 87, 17];
 
-let firstNumberLessThan10 = numbers.find(n => n > 10);
+let firstNumberGreaterThan10 = numbers.find(n => n > 10);
 
-console.log(firstNumberLessThan10);
+console.log(firstNumberGreaterThan10);
 
 /**
  * Q3:
